@@ -1,0 +1,14 @@
+body.main {
+		background-color: #949E9A;
+		color: #F9F9F9;
+	}
+h3.pagebar {
+		font-size: 28px;
+		color: #F5F5F5;
+		font-family: lato;
+}
+div.marg{
+  		margin-left: 12px;
+}
+hr.main {
+	color: #F9F9F9;
