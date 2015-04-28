@@ -9,6 +9,11 @@ h3.pagebar {
 }
 div.marg{
   		margin-left: 12px;
+  		margin-right: 12px;
 }
 hr.main {
-	color: #F9F9F9;
+		color: #F9F9F9;
+}
+textarea {
+		background-color: #7FA6DB !important;
+}
