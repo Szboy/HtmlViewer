@@ -1,12 +1,12 @@
 function getwords(){
-	myOutput= document.getElementById('output');
 	ErrorOutput = document.getElementById('error');
 	textbox = document.getElementById('words');
-	if (textbox.value.indexOf("</") >= 0) {
- 		myOutput.innerHTML= textbox.value
+	if ((textbox.value).indexOf("</") >= 0) {
+		OpenWindow=window.open("", "newwindow");
+		OpenWindow.document.write(textbox.value)
+		self.name="main"
  		ErrorOutput.innerHTML=""
 	} else {
-		myOutput.innerHTML= ""
 		ErrorOutput.innerHTML="Error: No html entered"
 	}
 }
